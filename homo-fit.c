@@ -1,4 +1,5 @@
 #include "point.h"
+#include "svd.h"
 
 static int
 homo_fit(const struct point_t *pt1, const struct point_t *pt2, int n, struct svdata_t *usv, double model[9]) {
